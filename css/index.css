@@ -1,0 +1,186 @@
+/* css นี้เชื่อมกับ index.php,construct.php,model.php */
+
+.hed{
+  line-height: 30px;
+}
+.butt{
+  text-align: right;
+}
+
+#address{
+  height: 80px;
+}
+textarea{
+    width: 300px;
+    height: 160px;
+    border-radius: 5px;
+    border:  1px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px rgba(50, 197, 255, 0.617);
+}
+body{
+    margin: 0;
+    font-family: 'Sarabun', sans-serif;
+  }
+  .imgtop{
+    float: left;
+    display: inline;
+    padding: 6px;
+  }
+  header{
+    background: rgb(223, 107, 159);
+  }
+  .header{
+    width: 100%;
+  }
+  .header h2{
+    padding-bottom: 5px;
+  }
+
+  
+  .navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(229, 149, 149);
+    border: 1px solid white;
+  }
+  
+  .navbar a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* dropdown */
+  .dropbtn {
+    background-color: rgb(229, 149, 149);
+    border: 1px solid white;
+    display: block;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  nav{
+    font-size: 20px;
+  }
+  .dropdow{
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .dropdow{
+    border-radius: 10px;
+  }
+  .dropbtn:hover{
+    color: rgb(0, 0, 0);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 5px;
+  }
+  .dropdownt {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    border: none;
+    position: absolute;
+    width: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #ffffff;
+    width: 240px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdownt:hover .dropdown-content {display: block;}
+
+
+
+
+h3{
+    padding-left: 60px;
+    font-size: 25px;
+}
+form{
+    padding-left: 90px;
+    line-height: 20px;
+    font-size: 16px;
+}
+select{
+    font-size: 16px;
+}
+input{
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:  1px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px rgba(50, 197, 255, 0.617);
+}
+
+.form-group{
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+form h4{
+    padding-left: -40px;
+}
+
+.list{
+    padding-left: 60px;
+    line-height: 35px;
+    
+}
+
+
+.but{
+    font-size: 20px;
+    transition: 0.5s;
+    width: 150px;
+    height: 50px;
+}
+.but:hover{
+    background-color: rgb(223, 107, 159);
+    color: white;
+    transition: 0.5s;
+}
+
+
+h3{
+    padding-top: 10px;
+}
+
+
+footer{
+  background-color: rgb(229, 149, 185);
+    padding: 1px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+.footer h4{
+    padding-left: 30px;
+    color: white;
+    line-height: 30px;
+}
+.foot{
+  padding-left: 20px;
+}
+

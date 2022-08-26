@@ -1,0 +1,266 @@
+body{
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+.imgtop{
+  float: left;
+  display: inline;
+  padding: 6px;
+}
+header{
+  background: rgb(223, 107, 159);
+  width: auto;
+}
+nav{
+  font-size: 20px;
+}
+.header h2{
+  padding-bottom: 5px;
+}
+.header{
+  width: 100%;
+}
+.img{
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1300px;
+  height: 750px;
+}
+footer{
+  background-color: rgb(229, 149, 185);
+  width: 100%;
+  color: rgb(0, 0, 0);
+  bottom: 0;
+  left: 0;
+}
+.foot{
+  padding-left: 20px;
+}
+.foot1{
+  position: fixed;
+}
+.navbar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+  background-color: rgb(229, 149, 149);
+  border: 1px solid white;
+
+}
+
+.navbar a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* dropdown */
+.dropbtn {
+  background-color: rgb(229, 149, 149);
+  border: 1px solid white;
+  display: block;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.dropdow{
+  border-radius: 15px;
+  padding: 10px;
+}
+.dropbtn:hover{
+  color: rgb(0, 0, 0);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 5px;
+}
+.dropdownt {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  border: none;
+  position: absolute;
+  width: auto;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background-color: #ffffff;
+  width: 240px;
+  
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdownt:hover .dropdown-content {display: block;}
+
+
+/*///////////////////////////////////////////////////////
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slide-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.slide {
+
+  background-color: rgba(0, 0, 0, 0.25);
+  display:none;
+}
+.active {
+  display: inline;
+}
+
+
+/* Next & previous buttons */
+.prev {
+    cursor: pointer;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    user-select: none;
+
+}
+.next {
+    cursor: pointer;
+    position: absolute;
+    left:82.5%;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(223, 107, 159);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* หน้า Search */
+#search{
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease;
+}
+#search:hover{
+  color: black;
+  background: white;
+}
+.home{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  pointer-events: auto;
+  transition: all 0.5s ease;
+}
+.search{
+  color: rgb(8, 0, 255);
+  font-weight: bold;
+  border-radius: 12px;
+  width: 20%;
+  text-align: center;
+
+}
+.address{
+  width: 120px;
+}
+.datails{
+  width: 200px;
+}
+#table1{
+  width: auto;
+}
+#form{
+  width: 27%;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 20px rgb(72, 255, 0);
+  transition: all 0.5s ease;
+}
+#form:hover{
+  box-shadow: 1px 1px 20px rgb(255, 98, 0);
+}

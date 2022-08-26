@@ -1,0 +1,67 @@
+.imgtop{
+    float: left;
+    display: inline;
+    padding: 1px;
+    padding-right: 10px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Sarabun', sans-serif;
+}
+.header{
+    background: rgb(223, 107, 159);
+    padding: 1px;
+}
+.header h1,.header h4{
+    padding-left: 20px;
+}
+
+h3{
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+.list{
+    padding-left: 60px;
+    line-height: 35px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttonsub{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.button{
+    cursor: pointer;
+    border: 0px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: rgb(255, 127, 168);
+    transition: 0.5s;
+}
+
+
+footer{
+    background-color: black;
+    padding: 1px;
+}
+.foot h4{
+    padding-left: 30px;
+    color: white;
+    line-height: 30px;
+}

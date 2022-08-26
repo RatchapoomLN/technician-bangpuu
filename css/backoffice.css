@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+    position: relative;
+    width: 100%;
+}
+.sidebar{
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(223, 107, 159);
+    padding-top: 9px;
+    transition: all 0.5s ease;
+}
+
+.image{
+    text-align: center;
+    opacity: 1;
+    pointer-events: auto;
+    height: auto;
+    transition: all 0.5s ease;
+    padding-bottom: 10px;
+}
+.info{
+    text-align: center;
+}
+.info h4{
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 1;
+    pointer-events: none;
+}
+
+.sidebar #btn{
+    color:white;
+    position: absolute;
+    left: 88%;
+    background-color: rgba(92, 89, 255, 0.623);
+    border-radius: 10px;
+    top: 6px;
+    text-align: center;
+    font-size: 30px;
+    height: 30px;
+    width: 50px;
+    transform:translateX(-50%);
+    cursor: pointer;
+}
+
+.sidebar ul{
+    margin-top: 20px;
+    
+}
+.sidebar ul li{
+    font-size: 16px;
+    height: 50px;
+    position: relative;
+    list-style: none;
+    width: 100%;
+    line-height: 50px;
+    margin: 0 5px;
+    margin-left: -20px;
+}
+.sidebar ul li a{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.346);
+    white-space: nowrap;
+}
+.sidebar ul li a:hover{
+    background: white;
+    color: black;
+}
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+.sidebar .link_name{
+    opacity: 1;
+    pointer-events: auto;
+    height: auto;
+}
+
+ul li #log_out{
+ font-size: 20px;
+ color: rgb(0, 0, 0);
+ border: 1px solid white;
+ box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.596);
+}
+ul li #log_out:hover{
+    color: red;
+}
+
+
+/* ส่วนอื่นนอกจากหลัก */
+
+.home{
+    padding-left: 245px;
+    padding-top: 10px;
+    pointer-events: auto;
+    transition: all 0.5s ease;
+}
+
+/* ค้นหา */
+.search{
+    color: rgb(8, 0, 255);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 12px;
+    width: 25%;
+    text-align: center;
+}
+.dat{
+    width: 80px;
+}
+.fi{
+    width: 40%;
+    background-color: rgba(246, 182, 222, 0.315);
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 12px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 1px 1px 20px rgb(232, 96, 234);
+  transition: all 0.5s ease;
+}
+.fi:hover{
+  box-shadow: 1px 1px 20px rgb(255, 98, 0);
+}
+
+
+
+.fi h5{
+    text-align: left;
+}
+#form{
+    border-radius: 12px;
+    
+}
+.dw{
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+#pro{
+    font-size: 16px;
+    padding: 5px;
+}
+#proselect{
+    font-size: 16px;
+    padding: 5px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+}
+#buttonsearch{
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+/* //////////////////////////////หัวด้านนอกตาราง/////////////////////////////////////// */
+
+.header{
+    font-size: 25px;
+    background-color: aquamarine;
+    width: 15%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.text{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3px;
+}
+
+/* /////////////////////////////////พนักงาน//////////////// */
+#table{
+    width: 99%;
+}
+
+#plus_employee{
+    right: 0;
+    margin-right: 15px;
+    position: absolute;
+    font-size: 25px;
+}
+/* /////////////////////////////////รายการแจ้งปัญหา//////////////// */
+
+#table1{
+    width: 99%;
+}
+.address{
+    width: 120px;
+}
+.datails{
+    width: 200px;
+}
+#status{
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    text-shadow: 1px 1px  rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+/* /////////////////////////////////รื้อถอน//////////////// */
+
+.heade{
+    font-size: 25px;
+    background-color: aquamarine;
+    width: 25%;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+/* /////////////////////////////////เขตท้ายบ้าน//////////////// */
+
+#input{
+border-radius: 5px;
+padding: 5px;
+width: 100%;
+}
+#formtai{
+    background: rgba(223, 107, 159, 0.753);
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+/* ////////////////////////////////////////////// */
+
+.use{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 20px;
+}
+.usee{
+    font-size: 18px;
+    text-shadow: 2px 1px 3px  rgb(0, 132, 172);
+    font-weight: bold;
+    padding-left: 40px;
+}
+.im{
+    margin: 0;
+    padding-left: 20px;
+    display:flex;
+    border-radius: 30px;
+    border: 2px 2px solid black;
+}
+.h{
+    width: 26%;
+    padding: 10px;
+}
+
+/*////////////////////////////////////////////////////*/
+#first{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-weight: 100;
+}
+#first:hover{
+    color: rgb(255, 255, 255);
+}
